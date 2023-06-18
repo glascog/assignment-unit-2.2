@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called secret and do not set it to any value. We also make a variable called code and set it to 123 as a number.
+// We write a conditional to check if code is equal to 123, and if so, our variable secret is set to 'super' as a string and our variable code is doubled. 
+// Code is equal to 123 so secret is now set to 'super' and code is doubled. Code is now 246.
+// We write a conditional to check if code is greater than 250, and if so, secret is set to 'duper' as a string. 
+// Code is not greater than 250, so secret remains set to 'super '.
+// We console.log 'super'.
 
 //CODE
 /*
@@ -70,7 +72,7 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
+// We 
 // 
 // 
 //
