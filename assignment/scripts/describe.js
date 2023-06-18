@@ -27,7 +27,7 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We make a variable called name and set it to 'Dane' as a string.
-// We write a conditional to check if our variable name is 'Mary', and if so, we console.log 'Hi, Mary!'. 
+// We make a conditional to check if our variable name is 'Mary', and if so, we console.log 'Hi, Mary!'. 
 // Then we write a second condition to test if our variable name is not 'Mary', and if not, we console.log 'How do you do?'
 // Our variable name is not 'Mary', so we console.log 'How do you do?'.
 
@@ -46,7 +46,7 @@ if (name === 'Mary') {
 
 // 2. WRITE YOUR DESCRIPTION HERE
 // We make a variable called secret and do not set it to any value. We also make a variable called code and set it to 123 as a number.
-// We write a conditional to check if code is equal to 123, and if so, our variable secret is set to 'super' as a string and our variable code is doubled. 
+// We make a conditional to check if code is equal to 123, and if so, our variable secret is set to 'super' as a string and our variable code is doubled. 
 // Code is equal to 123 so secret is now set to 'super' and code is doubled. Code is now 246.
 // We write a conditional to check if code is greater than 250, and if so, secret is set to 'duper' as a string. 
 // Code is not greater than 250, so secret remains set to 'super '.
@@ -78,7 +78,7 @@ console.log(secret)
 // We write a conditional to check if isStudent is true AND zip is greater than 80000, and if so, we console.log 'You're a student on the West Coast!'.
 // We write another conditional to check if isStudent is false OR age is less than 30, and if so, we console.log 'What are your hobbies?'.
 // We write a third conditional to check if isStudent is true, and if so, we console.log 'Welcome to Prime!'.
-// We write a fourth conditinal to check if all the other conditionals are false, and if so, we console.log 'How about the weather?'.
+// We write a fourth conditinal to check if the first three conditionals are false, and if so, we console.log 'How about the weather?'.
 // The first two conditionals are false and the third conditional is true, so we console.log 'Welcome to Prime!'
 
 //CODE
