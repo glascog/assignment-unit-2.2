@@ -136,10 +136,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne is set to 'red' but instructions say it's set to 'blue'. 
+// colorOne should be set to 'blue'.
+// FIX - colorTwo is set to 'blue' but instructions say it's set to 'red'.
+// colorTwo should be set to 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - only colorOne will be set to 'purple' if mix is set to true, but instructions say that both colorOne and colorTwo will be set to 'purple'.
+// Should add colorTwo = 'purple' to the conditional.
 if (mix === true) {
   colorOne = 'purple';
 }
