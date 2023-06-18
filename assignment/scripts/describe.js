@@ -173,8 +173,19 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+// FIX - minAge is set as a constant but instructions say that it is a variable. 
+// Should be let minAge = 21.
 let age = 21;
 const minAge = 21;
+
+// FIX - Conditional checks if minAge is less than or equal to age, but instructions state that we check if age is greater than or equal to minAge.
+// FIX - age is greater than or equal to minAge, so we console.log 'no entry', but instructions state that we console.log 'enter'.
+// Should be 
+if (age >= minAge) {
+  console.log('enter');
+} else {
+  console.log('no entry');
+}
 
 if(minAge <= age) {
   console.log('no entry');
