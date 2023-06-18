@@ -156,9 +156,13 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+// FIX - time is set as a constant, but instructions say that it is a variable.
+// Should be let time = 4.
 let temp = 40;
 const time = 4;
 
+// FIX - Conditional states that if temp is greater than 39 OR time is greater than or equal to 4, but instructions say to check if both conditions are true.
+// Should be if (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
